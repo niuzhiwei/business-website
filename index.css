@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.container-fluid{
+    max-width: 1200px;
+}
+.navbar .login{
+    display: inline-block;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-left: 12px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.search {
+    border: 1px solid red;
+    height: 100px;
+}
+
+.search .input-group {
+    margin-top: 30px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|";
+}
+
+.breadcrumb li a {
+    color: gray;
+}
+
+.cart {
+    height: 100px;
+    border: 1px solid red;
+}
+
+.cartbtn {
+    margin-top: 30px;
+}
+
+.navigation {
+    max-width: 1200px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+
+.dropdown1 button {
+    width: 200px;
+}
+
+.title {
+    width: 950px;
+    height: 40px;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.title div {
+    display: inline-block;
+}
+
+.title div a {
+    color: gray;
+}
+
+.carousel-inner img {
+    width: 1000px;
+    height: 100px;
+}
+
+.carousel {
+    background-color: rgb(150, 150, 150);
+}
+
+#tabs {
+    margin: 0 auto;
+    border: 1px solid red;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+#tabs ul .tab {
+    display: inline-block;
+    width: 236px;
+    height: 48px;
+    border: 1px solid red;
+    background-color: gray;
+    vertical-align: baseline;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+#tabs .caret {
+    border-top: 10px dashed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    left: -371px;
+    top: 27px;
+}
+
+#tabs_container {
+    margin-top: 20px;
+}
+
+#tabs-1 .imgbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 600px;
+}
+#tabs-1 .imgbox .box{
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#tabs-1 .imgbox .box .text{
+    display: flex;
+}
+
+#tabs-1 .imgbox .box .text1{
+    flex:1;
+}
+#tabs-1 .imgbox .box .attention{
+    display: none;
+}
+
+#tabs-1 .imgbox .box .attention input{
+    padding-right: 55px;
+    
+}
+
+.pagination{
+    margin-top: 170px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: gray;
+    border-color: #ddd;
+}
+
+#brand{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: auto;
+    border: 1px solid red;
+    background-color: rgb(242,242,242);
+    margin-top: 30px;
+}
+
+.allbrand {
+    text-align: center;
+    border: 1px solid red;
+    height: auto;
+ }
+  .allbrand .line {
+    display: inline-block;
+    width: 400px;
+    border-top: 1px solid #ccc ;
+ }
+ .allbrand .right {
+    position: relative;
+    left: 371px;
+    top: 34px;
+}
+ .allbrand .left{
+        position: relative;
+        right: 375px;
+        top: -47px;
+ }
+ .allbrand h1{
+     border: 1px solid red;
+     width: 300px;
+     margin:0 auto;
+     font-size: 24px;
+     font-weight: bold;
+ }
+ .allbrand .txt {
+     border: 1px solid red;
+    font-size: 22px;
+    display: block;
+    color: #686868;
+    width: 300px;
+    margin:0 auto;
+ }
+ .country .navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 15px;
+}
+.country .navbar-left {
+    float: right!important;
+}
+.country .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.words .navbar{
+    margin-top: -20px;
+    background-color: rgb(210,210,210);
+}
+.words .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+}
+.words .nav>li>a {
+    padding:15px 16px 5px;
+    font-size: 15px;
+}
+.brandhot{
+    height:auto;
+    border:1px solid red;
+    background-color: #fff;
+}
+.brandhot .tips{
+    border: 1px solid red;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.brandhot .hot{
+    border: 1px solid red;
+    height: auto;
+}
+.brandhot .col-md-3{
+    margin-top:60px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 40px;
+}
+.brandhot .col-md-3 a{
+    display: block;
+    font-size: 16px;
+}
+
+.abrand{
+    margin-top: 15px;
+    height:auto;
+    border:1px solid red;
+    background-color: #fff;
+}
+.abrand .tips{
+    border: 1px solid red;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.abrand .hot{
+    border: 1px solid red;
+    height: auto;
+}
+.abrand .col-md-3{
+    border: 1px solid red;
+    text-align: center;
+    line-height: 40px;
+}
+.abrand .col-md-3 a{
+    display: block;
+    font-size: 16px;
+}
+.more{
+    margin-top: 50px;
+    text-align: center;
+}
+.more a{
+    font-size: 15px;
+}
+footer{
+    max-width: 1200px;
+    border:1px solid red;
+    margin: 0 auto;
+    background-color: rgb(242,242,242);
+}
+footer .col-md-3{
+    margin-top:100px;
+    margin-bottom: 30px;
+    border: 1px solid red;
+    text-align: center;
+}
+footer .col-md-3 img{
+    border-radius: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.sidebar{
+  display: inline-block;
+  position:relative;
+  left: 90px;
+  top: 150px;
+  border: 1px solid black;
+}
+.sidebar ul li{
+    border:1px solid black;
+    padding: 4px;
+}
+.sidebar ul li:hover{
+    background-color: gray;
+    color: #fff;
+}
